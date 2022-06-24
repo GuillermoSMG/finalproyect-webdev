@@ -654,7 +654,7 @@ form .mi_outline:focus-visible {
 
 /* =============== ANIMATIONS =============== */
 
-.main__p__span {
+/* .main__p__span {
   animation: changeColor 2.5s;
   animation-iteration-count: infinite;
   font-size: 1.25em;
@@ -699,7 +699,7 @@ form .mi_outline:focus-visible {
 
 .anim__img {
   width: 2rem;
-}
+} */
 
 /* @keyframes mover {
   0% {
