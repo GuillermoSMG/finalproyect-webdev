@@ -15,6 +15,9 @@
       crossorigin="anonymous"
     />
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- CSS -->
     <link rel="stylesheet" href="/styles/style.css" />
 
@@ -56,26 +59,46 @@
             <ul class="navbar-nav fs-6">
               <li class="nav-item d-flex justify-content-center p-3">
                 <a
-                  class="nav-link active text-light"
+                  class="nav-link active text-light rounded menu__a-hover menu__a-focus"
                   aria-current="page"
                   href="#main"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item d-md-flex d-none justify-content-center p-3">
-                <a class="nav-link text-light" href="#gallery">Galeria</a>
+                <a
+                  class="nav-link text-light rounded menu__a-hover menu__a-focus"
+                  href="#gallery"
+                  >Galeria</a
+                >
               </li>
               <li class="nav-item d-flex d-md-none justify-content-center p-3">
-                <a class="nav-link text-light" href="#carousel">Carrusel</a>
+                <a
+                  class="nav-link text-light rounded menu__a-hover menu__a-focus"
+                  href="#carousel"
+                  >Carrusel</a
+                >
               </li>
               <li class="nav-item d-flex justify-content-center p-3">
-                <a class="nav-link text-light" href="#viajes">Viajes</a>
+                <a
+                  class="nav-link text-light rounded menu__a-hover menu__a-focus"
+                  href="#viajes"
+                  >Viajes</a
+                >
               </li>
               <li class="nav-item d-flex justify-content-center p-3">
-                <a class="nav-link text-light" href="#avisitar">A visitar</a>
+                <a
+                  class="nav-link text-light rounded menu__a-hover menu__a-focus"
+                  href="#avisitar"
+                  >A visitar</a
+                >
               </li>
               <li class="nav-item d-flex justify-content-center p-3">
-                <a class="nav-link text-light" href="#contact">Contacto</a>
+                <a
+                  class="nav-link text-light rounded menu__a-hover menu__a-focus"
+                  href="#contact"
+                  >Contacto</a
+                >
               </li>
             </ul>
           </div>
@@ -88,7 +111,7 @@
     <!--MAIN SECTION-->
 
     <section id="main" class="main__section">
-      <p class="main__paragraph">
+      <p data-aos="zoom-in" data-aos-duration="2000" class="main__paragraph">
         Colonia del Sacramento es uno de los más importantes referentes
         turísticos e históricos del Uruguay, recibiendo miles de visitantes
         durante el año. Fundada en 1680 por el portugués Manuel Lobo, la ciudad
@@ -102,31 +125,67 @@
     <!--GALLERY SECTION-->
 
     <section id="gallery" class="gallery__section">
-      <div class="gallery__img__container">
+      <div
+        data-aos-duration="1000"
+        data-aos="fade-up"
+        class="gallery__img__container"
+      >
         <img class="gallery__img" src="imgs/gallery1.jpg" alt="futura imagen" />
       </div>
-      <div class="gallery__img__container">
+      <div
+        data-aos-duration="1000"
+        data-aos="fade-up"
+        class="gallery__img__container"
+      >
         <img class="gallery__img" src="imgs/gallery2.jpg" alt="futura imagen" />
       </div>
-      <div class="gallery__img__container">
+      <div
+        data-aos-duration="1000"
+        data-aos="fade-up"
+        class="gallery__img__container"
+      >
         <img class="gallery__img" src="imgs/gallery3.jpg" alt="futura imagen" />
       </div>
-      <div class="gallery__img__container">
+      <div
+        data-aos-duration="1000"
+        data-aos="fade-up"
+        class="gallery__img__container"
+      >
         <img class="gallery__img" src="imgs/gallery4.jpg" alt="futura imagen" />
       </div>
-      <div class="gallery__img__container">
+      <div
+        data-aos-duration="1000"
+        data-aos="fade-up"
+        class="gallery__img__container"
+      >
         <img class="gallery__img" src="imgs/gallery5.jpg" alt="futura imagen" />
       </div>
-      <div class="gallery__img__container">
+      <div
+        data-aos-duration="1000"
+        data-aos="fade-up"
+        class="gallery__img__container"
+      >
         <img class="gallery__img" src="imgs/gallery6.jpg" alt="futura imagen" />
       </div>
-      <div class="gallery__img__container">
+      <div
+        data-aos-duration="1000"
+        data-aos="fade-up"
+        class="gallery__img__container"
+      >
         <img class="gallery__img" src="imgs/gallery7.jpg" alt="futura imagen" />
       </div>
-      <div class="gallery__img__container">
+      <div
+        data-aos-duration="1000"
+        data-aos="fade-up"
+        class="gallery__img__container"
+      >
         <img class="gallery__img" src="imgs/gallery8.jpg" alt="futura imagen" />
       </div>
-      <div class="gallery__img__container">
+      <div
+        data-aos-duration="1000"
+        data-aos="fade-up"
+        class="gallery__img__container"
+      >
         <img class="gallery__img" src="imgs/gallery9.jpg" alt="futura imagen" />
       </div>
     </section>
@@ -156,7 +215,11 @@
 
     <h2 id="viajes" class="viajes__title">Viajes desde:</h2>
     <section class="viajes__section">
-      <article class="viajes__article">
+      <article
+        data-aos="flip-up"
+        data-aos-duration="2000"
+        class="viajes__article"
+      >
         <h2 class="article__title">Montevideo</h2>
         <div class="list__container">
           <ul class="article__list">
@@ -168,7 +231,11 @@
         </div>
       </article>
 
-      <article class="viajes__article">
+      <article
+        class="viajes__article"
+        data-aos="flip-up"
+        data-aos-duration="2000"
+      >
         <h2 class="article__title">Maldonado</h2>
         <div class="list__container">
           <ul class="article__list">
@@ -180,7 +247,11 @@
         </div>
       </article>
 
-      <article class="viajes__article">
+      <article
+        class="viajes__article"
+        data-aos="flip-up"
+        data-aos-duration="2000"
+      >
         <h2 class="article__title">Rocha</h2>
         <div class="list__container">
           <ul class="article__list">
@@ -203,8 +274,14 @@
           class="avisitar__img"
           src="imgs/faroarticle.jpg"
           alt="faro colonia del sacramento"
+          data-aos="fade-right"
+          data-aos-duration="1500"
         />
-        <p class="avisitar__paragraph">
+        <p
+          class="avisitar__paragraph"
+          data-aos="zoom-in-down"
+          data-aos-duration="1500"
+        >
           <span class="avisitar__span">Faro:</span>
           Fue construido en el siglo XIX para iluminar a las embarcaciones que
           navegaban el Río de la Plata. Hoy su luz sigue guiando a los
@@ -212,6 +289,8 @@
           contemplarlo.
         </p>
         <iframe
+          data-aos="fade-left"
+          data-aos-duration="1500"
           class="avisitar__map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.186342584513!2d-57.8522475!3d-34.472796800000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3125cb88d65e7%3A0x677c7ec2aa26e4c8!2sColonia%20del%20Sacramento%20Lighthouse!5e0!3m2!1sen!2suy!4v1654189586189!5m2!1sen!2suy"
           style="border: 0"
@@ -226,8 +305,14 @@
           class="avisitar__img"
           src="imgs/puertoarticle.jpg"
           alt="puerto colonia del sacramento vista aerea"
+          data-aos="fade-left"
+          data-aos-duration="1500"
         />
-        <p class="avisitar__paragraph">
+        <p
+          class="avisitar__paragraph"
+          data-aos="zoom-in-down"
+          data-aos-duration="1500"
+        >
           <span class="avisitar__span">Puerto:</span>
           Por su cercanía a Buenos Aires, es la principal puerta de entrada
           desde el país vecino, con intenso tránsito de pasajeros entre las dos
@@ -235,6 +320,8 @@
           fondo resulta una experiencia renovadora.
         </p>
         <iframe
+          data-aos="fade-right"
+          data-aos-duration="1500"
           class="avisitar__map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.1472072243105!2d-57.84381509999999!3d-34.4737897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a312693f2c50e3%3A0xf5bb91c5579b5a0!2sPuerto%20de%20Colonia!5e0!3m2!1sen!2suy!4v1654189694805!5m2!1sen!2suy"
           style="border: 0"
@@ -249,8 +336,14 @@
           class="avisitar__img"
           src="imgs/suspirosarticle.jpg"
           alt="calle de los suspiros colonia del sacramento"
+          data-aos="fade-right"
+          data-aos-duration="1500"
         />
-        <p class="avisitar__paragraph">
+        <p
+          class="avisitar__paragraph"
+          data-aos="zoom-in-down"
+          data-aos-duration="1500"
+        >
           <span class="avisitar__span">Calle de los Suspiros:</span>
           Es la peatonal más emblemática del barrio histórico. Sus casonas
           portuguesas originarias del siglo XVIII, sus faroles coloniales sus,
@@ -263,6 +356,8 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          data-aos="fade-left"
+          data-aos-duration="1500"
         ></iframe>
       </article>
     </section>
@@ -272,8 +367,8 @@
     <!--CONTACT SECTION-->
 
     <section id="contact" class="contact__section">
+      <h2 class="contact__title">Contacto</h2>
       <form class="contact__form" action="">
-        <h2 class="contact__title">Contacto</h2>
         <input
           id="name"
           class="contact__input"
@@ -351,5 +446,11 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
