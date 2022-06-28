@@ -276,48 +276,13 @@ html {
 
 /* =============== FOOTER =============== */
 
-.footer {
-  display: block;
-  background-color: #333;
-}
-
-.footer__section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.footer__redes {
-  display: flex;
-  margin-inline: 1.5rem;
-  align-self: center;
-}
-
-.link__redes {
-  display: block;
-  margin-inline: 2rem;
-}
-
-.icon__redes {
-  display: block;
-  width: 2.3rem;
-}
-
-.icon__redes:hover {
+.redes__hover:hover {
   color: #fff;
   background-color: #666;
   border-radius: 4px;
 }
 
-.footer__link {
-  color: #fff;
-  font-size: 1.25em;
-  font-weight: 500;
-  margin: 1.5rem;
-  padding: 0.7rem;
-}
-
-.footer__link:hover {
+.ir-arriba__hover:hover {
   color: #fff;
   background-color: #666;
   border-radius: 4px;
