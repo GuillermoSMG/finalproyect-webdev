@@ -1,0 +1,17 @@
+.main__section {
+  width: 100vw;
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  
+  .main__paragraph {
+      color: rgb(0, 0, 0);
+      width: 50%;
+      font-size: 1.3em;
+      font-weight: 600;
+      background-color: rgba(255, 255, 255, 0.316);
+      line-height: 1.7rem;
+    }
+}

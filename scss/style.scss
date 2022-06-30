@@ -1,0 +1,171 @@
+@import 'components/mainSection';
+@import 'components/navMenu';
+@import 'components/gallery';
+@import 'components/contact';
+@import 'components/avisitar';
+@import 'components/viajes';
+@import 'components/footer';
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4.5rem;
+  }
+  
+  
+  /* =============== MEDIAS 1024px 768px 480px =============== */
+  /* DESKTOP - 1024+px | NOTEBOOK-TABLET - 768+px | MOBILE - 480px */
+  
+  /* =============== MAX-WIDTH: 1024px =============== */
+  
+  @media (max-width: 1024px) {
+    /* ====== GALLERY SECTION ====== */
+  
+    .gallery__img__container:nth-child(1) {
+      grid-column-start: span 1;
+    }
+  
+    .gallery__img__container:nth-child(2) {
+      grid-column-start: span 2;
+    }
+  
+    .gallery__img__container:nth-child(4) {
+      grid-row-start: span 1;
+    }
+  
+    .gallery__img__container:nth-child(5) {
+      grid-column-start: span 1;
+    }
+  
+    .gallery__img__container:nth-child(6) {
+      grid-row-start: span 1;
+      grid-column-start: span 2;
+    }
+  
+    .gallery__img__container:nth-child(7) {
+      grid-column-start: span 2;
+    }
+  
+    .gallery__img__container:nth-child(8) {
+      grid-column-start: span 1;
+    }
+  
+    .gallery__img__container:nth-child(9) {
+      grid-column-start: span 1;
+    }
+  
+    /* GALLERY SECTION END */
+  }
+  
+  /* =============== MAX-WIDTH: 1024px END =============== */
+  
+  /* =============== MAX-WIDTH: 768px =============== */
+  
+  @media (max-width: 768px) {
+    /* ====== HTML ====== */
+  
+    html {
+      scroll-padding-top: 4rem;
+    }
+  
+    /* ====== HTML END ====== */
+  
+    /* ====== CONTACT ====== */
+  
+    .contact__form {
+      width: 80%;
+    }
+  
+    /* ====== CONTACT END ====== */
+  
+    /* ====== MAIN STYLES ====== */
+  
+    .main__section {
+      font-weight: 600;
+      padding: 2rem 4rem;
+      height: fit-content;
+    }
+  
+    .main__paragraph {
+      color: #000;
+      width: unset;
+      font-size: 1em;
+      margin-top: 3rem;
+    }
+  
+    /* ====== MAIN STYLES END ====== */
+  
+    /* ====== GALLERY STYLES ====== */
+    .gallery__section {
+      display: none;
+    }
+  
+    .carousel {
+      height: 90vh;
+      background-color: #333;
+      display: flex;
+      align-items: center;
+    }
+    /* ====== GALLERY STYLES END ====== */
+  
+    /* ====== VIAJES STYLES ====== */
+  
+    .viajes__section {
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      padding-bottom: 3rem;
+    }
+  
+    .viajes__article {
+      width: 60%;
+    }
+  
+    /* ====== VIAJES STYLES END ====== */
+  
+    /* ====== A VISITAR STYLES ====== */
+  
+    .avisitar__section {
+      background-color: #333;
+      color: #fff;
+      gap: 0;
+    }
+  
+    .avisitar__img {
+      display: none;
+    }
+  
+    .avisitar__paragraph {
+      padding: 0 0.5rem 1rem;
+      line-height: 1.25rem;
+      text-align: justify;
+      width: unset;
+    }
+  
+    .avisitar__article1,
+    .avisitar__article2,
+    .avisitar__article3 {
+      display: flex;
+      padding: 1.5rem;
+      padding-bottom: 0;
+      flex-direction: column;
+    }
+  
+    /* ====== A VISITAR STYLES END ====== */
+  }
+  
+  /* =============== MAX-WIDTH: 768px END =============== */
+  
+  /* =============== ANIMATIONS =============== */
+  

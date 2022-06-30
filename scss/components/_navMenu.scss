@@ -1,0 +1,8 @@
+.menu__a-hover:hover {
+    background-color: #333;
+    transition: background-color 0.7s ease;
+  }
+  
+  .menu__a-focus:focus {
+    transform: translateY(3px);
+  }
