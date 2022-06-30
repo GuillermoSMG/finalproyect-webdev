@@ -273,7 +273,8 @@ html {
   background-color: #222;
   color: #fff;
   transform: scale(1.2);
-  transition: transform 0.5s ease, background-color 0.5s ease, color 0.5s ease;
+  transition: transform 0.5s ease-in-out, background-color 0.5s ease,
+    color 0.5s ease;
   z-index: 1;
 }
 
