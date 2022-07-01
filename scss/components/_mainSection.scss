@@ -7,7 +7,7 @@
   height: 85vh;
   
   .main__paragraph {
-      color: rgb(0, 0, 0);
+      color: nth($colors, 1);
       width: 50%;
       font-size: 1.3em;
       font-weight: 600;

@@ -1,5 +1,5 @@
 .gallery__section {
-    background-color: #333;
+    background-color: nth($colors, 4);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem;

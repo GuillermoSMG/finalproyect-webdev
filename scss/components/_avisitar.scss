@@ -1,6 +1,6 @@
 .avisitar__section {
-    background-color: #333;
-    color: #fff;
+    background-color: nth($colors, 4);
+    color: nth($colors, 16);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);

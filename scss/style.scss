@@ -1,3 +1,4 @@
+@import 'base/variables';
 @import 'components/mainSection';
 @import 'components/navMenu';
 @import 'components/gallery';
@@ -98,7 +99,7 @@
     }
   
     .main__paragraph {
-      color: #000;
+      color: nth($colors, 1 );
       width: unset;
       font-size: 1em;
       margin-top: 3rem;
@@ -113,7 +114,7 @@
   
     .carousel {
       height: 90vh;
-      background-color: #333;
+      background-color: nth($colors, 4 );
       display: flex;
       align-items: center;
     }
@@ -137,8 +138,8 @@
     /* ====== A VISITAR STYLES ====== */
   
     .avisitar__section {
-      background-color: #333;
-      color: #fff;
+      background-color: nth($colors, 4);
+      color: nth($colors, 16);
       gap: 0;
     }
   

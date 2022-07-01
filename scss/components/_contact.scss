@@ -21,20 +21,20 @@
   .contact__input {
     height: 2rem;
     border: none;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid nth($colors, 1);
     margin: 1.25rem 0;
     outline: none;
     font-size: 1.1em;
   }
   
   .contact__input:focus {
-    background-color: #efefef;
+    background-color: nth($colors, 17);
     transition: background-color 0.5s ease;
   }
   
   .contact__textarea {
     border: none;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid nth($colors, 1);
     margin-bottom: 1rem;
     resize: none;
     outline: none;
@@ -42,16 +42,16 @@
   }
   
   .contact__textarea:focus {
-    background-color: #efefef;
+    background-color: nth($colors, 17);
     transition: background-color 0.5s ease;
   }
   
   .contact__button {
-    background-color: #333;
+    background-color: nth($colors, 4);
     border: none;
     padding: 1.125rem;
     align-self: center;
-    color: #fff;
+    color: nth($colors, 16);
     border-radius: 5px;
     font-size: 1.125em;
     cursor: pointer;
@@ -59,7 +59,7 @@
   }
   
   .contact__button:hover {
-    color: #999;
+    color: nth($colors, 10);
     transition: color 0.3s ease;
   }
   

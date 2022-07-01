@@ -1,11 +1,11 @@
 .redes__hover:hover {
-    color: #fff;
-    background-color: #666;
+    color: nth($colors, 16 );
+    background-color: nth($colors, 7);
     border-radius: 4px;
   }
   
   .ir-arriba__hover:hover {
-    color: #fff;
-    background-color: #666;
+    color: nth($colors, 16 );
+    background-color: nth($colors, 7);
     border-radius: 4px;
   }
