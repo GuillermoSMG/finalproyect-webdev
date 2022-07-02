@@ -5,6 +5,12 @@
   justify-content: center;
   align-items: center;
   height: 85vh;
+
+  @media (max-width: 768px) {
+    font-weight: 600;
+    padding: 2rem 4rem;
+    height: fit-content;
+  }
   
   .main__paragraph {
       color: nth($colors, 1);
@@ -13,5 +19,12 @@
       font-weight: 600;
       background-color: rgba(255, 255, 255, 0.316);
       line-height: 1.7rem;
+
+      @media (max-width: 768px) {
+        color: nth($colors, 1);
+        width: unset;
+        font-size: 1em;
+        margin-top: 3rem;
+      }
     }
 }

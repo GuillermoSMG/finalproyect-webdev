@@ -1,8 +1,14 @@
-.menu__a-hover:hover {
+.menu__a-hover {
+
+  &:hover {
     background-color: nth($colors, 4);
     transition: background-color 0.7s ease;
   }
+}
   
-  .menu__a-focus:focus {
-    transform: translateY(3px);
+  .menu__a-focus {
+
+    &:focus {
+      transform: translateY(3px);
+    }
   }

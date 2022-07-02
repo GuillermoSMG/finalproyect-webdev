@@ -9,56 +9,172 @@
       "art2 art2 art2"
       "art3 art3 art3";
     gap: 2rem;
+
+    @media (max-width: 768px) {
+      background-color: nth($colors, 4);
+      color: nth($colors, 16);
+      gap: 0;
+    }
+
+    .avisitar__article1 {
+      padding-top: 1rem;
+      grid-area: art1;
+      display: flex;
+      justify-content: space-evenly;
+      height: fit-content;
+      flex-direction: row;
+
+      @media (max-width: 768px) {
+        display: flex;
+        padding: 1.5rem;
+        padding-bottom: 0;
+        flex-direction: column;
+      }
+
+      .avisitar__img {
+        object-fit: cover;
+        border-radius: 10px;
+        display: block;
+
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+      
+      .avisitar__paragraph {
+        line-height: 1.5rem;
+        text-align: justify;
+        align-self: center;
+        width: 33%;
+        padding-inline: 1rem;
+
+        @media (max-width: 768px) {
+          padding: 0 0.5rem 1rem;
+          line-height: 1.25rem;
+          text-align: justify;
+          width: unset;
+        }
+      }
+      
+      .avisitar__span {
+        font-size: 1.5em;
+      }
+      
+      .avisitar__map {
+        border: none;
+        border-radius: 10px;
+      }
+    }
+
+    .avisitar__article2 {
+      grid-area: art2;
+      display: flex;
+      justify-content: space-evenly;
+      padding-bottom: 1rem;
+      height: fit-content;
+
+      @media (max-width: 768px) {
+        display: flex;
+        padding: 1.5rem;
+        padding-bottom: 0;
+        flex-direction: column;
+      }
+
+      .derecha {
+        flex-direction: row-reverse;
+      }
+
+      .avisitar__img {
+        object-fit: cover;
+        border-radius: 10px;
+        display: block;
+
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+      
+      .avisitar__paragraph {
+        line-height: 1.5rem;
+        text-align: justify;
+        align-self: center;
+        width: 33%;
+        padding-inline: 1rem;
+
+        @media (max-width: 768px) {
+          padding: 0 0.5rem 1rem;
+          line-height: 1.25rem;
+          text-align: justify;
+          width: unset;
+        }
+      }
+      
+      .avisitar__span {
+        font-size: 1.5em;
+      }
+      
+      .avisitar__map {
+        border: none;
+        border-radius: 10px;
+      }
+    }
+
+    .avisitar__article3 {
+      grid-area: art3;
+      display: flex;
+      justify-content: space-evenly;
+      height: fit-content;
+      flex-direction: row;
+      margin-bottom: 1rem;
+
+      @media (max-width: 768px) {
+        display: flex;
+        padding: 1.5rem;
+        padding-bottom: 0;
+        flex-direction: column;
+      }
+
+      .avisitar__img {
+        object-fit: cover;
+        border-radius: 10px;
+        display: block;
+
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+      
+      .avisitar__paragraph {
+        line-height: 1.5rem;
+        text-align: justify;
+        align-self: center;
+        width: 33%;
+        padding-inline: 1rem;
+
+        @media (max-width: 768px) {
+          padding: 0 0.5rem 1rem;
+          line-height: 1.25rem;
+          text-align: justify;
+          width: unset;
+        }
+      }
+      
+      .avisitar__span {
+        font-size: 1.5em;
+      }
+      
+      .avisitar__map {
+        border: none;
+        border-radius: 10px;
+      }
+    }
   }
   
-  .avisitar__article1 {
-    padding-top: 1rem;
-    grid-area: art1;
-    display: flex;
-    justify-content: space-evenly;
-    height: fit-content;
-    flex-direction: row;
-  }
+
   
-  .avisitar__article2 {
-    grid-area: art2;
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 1rem;
-    height: fit-content;
-  }
-  .avisitar__article3 {
-    grid-area: art3;
-    display: flex;
-    justify-content: space-evenly;
-    height: fit-content;
-    flex-direction: row;
-    margin-bottom: 1rem;
-  }
   
-  .derecha {
-    flex-direction: row-reverse;
-  }
   
-  .avisitar__img {
-    object-fit: cover;
-    border-radius: 10px;
-    display: block;
-  }
   
-  .avisitar__paragraph {
-    line-height: 1.5rem;
-    text-align: justify;
-    align-self: center;
-    width: 33%;
-    padding-inline: 1rem;
-  }
+ 
   
-  .avisitar__span {
-    font-size: 1.5em;
-  }
   
-  .avisitar__map {
-    border: none;
-    border-radius: 10px;
-  }
