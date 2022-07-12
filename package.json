@@ -1,7 +1,7 @@
 {
   "name": "web-colonia-viajes_san-martin-guillermo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web de información turística sobre Colonia del Sacramento, Uruguay",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
