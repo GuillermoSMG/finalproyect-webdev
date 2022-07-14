@@ -1,3 +1,18 @@
+%focus__input {
+    background-color: nth($colors, 17);
+    transition: background-color 0.5s ease;
+}
+
+@mixin inputs__fields($margin, $resize, $height) {
+    outline: none;
+    font-size: 1.1em;
+    border: none;
+    border-bottom: 1px solid nth($colors, 1);
+    margin: $margin;
+    resize: $resize;
+    height: $height;
+};
+
 .contact__section {
     height: fit-content;
     display: flex;
@@ -6,9 +21,7 @@
     flex-direction: column;
 
     .contact__title {
-      font-weight: 700;
-      font-size: 2em;
-      margin: 1.3rem auto;
+      @include section-titles(1.3rem auto)
     }
 
     .contact__form {
@@ -21,30 +34,18 @@
       }
 
       .contact__input {
-        height: 2rem;
-        border: none;
-        border-bottom: 1px solid nth($colors, 1);
-        margin: 1.25rem 0;
-        outline: none;
-        font-size: 1.1em;
+        @include inputs__fields(1.25rem 0, none, 2rem);
 
         &:focus {
-          background-color: nth($colors, 17);
-          transition: background-color 0.5s ease;
+          @extend %focus__input;
         }
       }
 
       .contact__textarea {
-        border: none;
-        border-bottom: 1px solid nth($colors, 1);
-        margin-bottom: 1rem;
-        resize: none;
-        outline: none;
-        font-size: 1.1em;
+        @include inputs__fields(0 0 1rem, none, auto);
 
         &:focus {
-          background-color: nth($colors, 17);
-          transition: background-color 0.5s ease;
+          @extend %focus__input;
         }
       }
     }  

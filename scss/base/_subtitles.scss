@@ -1,0 +1,14 @@
+@mixin section-titles($margin) {
+    font-family: 'Cormorant SC', serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin: $margin;
+};
+
+%article-subtitles {
+    text-align: center;
+    padding: 0.8rem 0 1.3rem;
+    font-size: 2em;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 700;
+};

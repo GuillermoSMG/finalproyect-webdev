@@ -13,6 +13,17 @@
     }
 }
 
+%avisitar__span {
+    font-size: 1.5em;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 700;
+}
+
+%avisitar__map {
+    border: none;
+    border-radius: 10px;
+}
+
 $avisitar__img: (
     object-fit: cover,
     border-radius: 10px,
@@ -72,12 +83,11 @@ $avisitar__img: (
       }
       
       .avisitar__span {
-        font-size: 1.5em;
+        @extend %avisitar__span;
       }
       
       .avisitar__map {
-        border: none;
-        border-radius: 10px;
+        @extend %avisitar__map;
       }
     }
 
@@ -99,12 +109,11 @@ $avisitar__img: (
       }
       
       .avisitar__span {
-        font-size: 1.5em;
+        @extend %avisitar__span;
       }
       
       .avisitar__map {
-        border: none;
-        border-radius: 10px;
+        @extend %avisitar__map;
       }
     }
 
@@ -126,12 +135,11 @@ $avisitar__img: (
       }
       
       .avisitar__span {
-        font-size: 1.5em;
+        @extend %avisitar__span;
       }
       
       .avisitar__map {
-        border: none;
-        border-radius: 10px;
+        @extend %avisitar__map;
       }
     }
   }
