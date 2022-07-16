@@ -17,6 +17,7 @@
       grid-template-columns: 1fr;
       gap: 2rem;
       padding-bottom: 3rem;
+      height: fit-content;
     }
 
     .viajes__article {
@@ -30,6 +31,7 @@
 
       @media (max-width: 768px) {
         width: 60%;
+        height: fit-content;
       }
 
       &:hover {
@@ -52,6 +54,22 @@
 
           .list__item {
             padding: 0 1rem .8rem;
+
+            .cot {
+              color: brown;
+            }
+
+            .copsa {
+              color: blue;
+            }
+
+            .rutas-sol {
+              color: rgb(167, 167, 1);
+            }
+
+            .price {
+              color: green;
+            }
           }
         }
       }

@@ -13,20 +13,21 @@
   justify-content: center;
   align-items: center;
   height: 85vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.8), rgba(5, 7, 12, 0.8)), url(../../imgs/colonia1.jpg), center center;
+  background-size: cover;
 }
 @media (max-width: 768px) {
   .main__section {
     font-weight: 600;
-    padding: 2rem 4rem;
+    padding: 3rem 4rem;
     height: fit-content;
   }
 }
 .main__section .main__paragraph {
-  color: #000;
+  color: #efefef;
   width: 50%;
   font-size: 1.3em;
   font-weight: 600;
-  background-color: rgba(255, 255, 255, 0.316);
 }
 @media (max-width: 768px) {
   .main__section .main__paragraph {
@@ -57,6 +58,7 @@
   height: fit-content;
   width: 100%;
   grid-gap: 2rem;
+  overflow-y: hidden;
 }
 @media (max-width: 767px) {
   .gallery__section {
@@ -330,6 +332,7 @@
     grid-template-columns: 1fr;
     gap: 2rem;
     padding-bottom: 3rem;
+    height: fit-content;
   }
 }
 .viajes__section .viajes__article {
@@ -344,6 +347,7 @@
 @media (max-width: 768px) {
   .viajes__section .viajes__article {
     width: 60%;
+    height: fit-content;
   }
 }
 .viajes__section .viajes__article:hover {
@@ -356,6 +360,18 @@
 }
 .viajes__section .viajes__article .list__container .article__list .list__item {
   padding: 0 1rem 0.8rem;
+}
+.viajes__section .viajes__article .list__container .article__list .list__item .cot {
+  color: brown;
+}
+.viajes__section .viajes__article .list__container .article__list .list__item .copsa {
+  color: blue;
+}
+.viajes__section .viajes__article .list__container .article__list .list__item .rutas-sol {
+  color: rgb(167, 167, 1);
+}
+.viajes__section .viajes__article .list__container .article__list .list__item .price {
+  color: green;
 }
 
 .redes__hover:hover {

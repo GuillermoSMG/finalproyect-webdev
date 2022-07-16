@@ -5,19 +5,21 @@
   justify-content: center;
   align-items: center;
   height: 85vh;
+  background: linear-gradient(rgba(5, 7, 12, .8), rgba(5, 7, 12, .8)), url(../../imgs/colonia1.jpg), center center;
+  background-size: cover;
+  
 
   @media (max-width: 768px) {
     font-weight: 600;
-    padding: 2rem 4rem;
+    padding: 3rem 4rem;
     height: fit-content;
   }
   
   .main__paragraph {
-      color: nth($colors, 1);
+      color: nth($colors, 17);
       width: 50%;
       font-size: 1.3em;
       font-weight: 600;
-      background-color: rgba(255, 255, 255, 0.316);
 
       @media (max-width: 768px) {
         width: unset;
