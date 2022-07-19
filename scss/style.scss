@@ -1,3 +1,4 @@
+@import 'base/reset';
 @import 'base/subtitles';
 @import 'base/variables';
 @import 'components/mainSection';
@@ -7,28 +8,3 @@
 @import 'components/avisitar';
 @import 'components/viajes';
 @import 'components/footer';
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    overflow-x: hidden;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 4.5rem;
-
-    @media (max-width: 768px) {
-        scroll-padding-top: 4rem;
-  }
-}
-
-.disclaimer {
-  display: none;
-} 
